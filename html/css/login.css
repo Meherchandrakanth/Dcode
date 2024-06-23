@@ -1,0 +1,96 @@
+*{
+  font-family: 'Wix Madefor Display', sans-serif;
+  }
+  .profile-block{
+    display : inline-block;
+    height : 200px;
+    width : 500px;
+    background-color : #0E8388;
+  }
+  .profile-pic{
+    width : 200px;
+  }
+  .login_block{
+    margin-top : 50px;
+  }
+  .login{
+    border-style : solid;
+    width : 500px;
+    border-radius : 8px;
+    height : 550px;
+    margin-left : 30%;
+    margin-top :5%;
+  }
+  
+  .login-title{
+     vertical-align:top;
+     display : inline-block;
+     margin-left :30px;
+     margin-top : 50px;
+  }
+  
+  .email-block{
+    text-align : center;
+  }
+  
+  .password-block{
+    text-align : center;
+  }
+  
+  .text-block{
+      margin-left : 30px;
+      display : inline-block;
+      margin-bottom : 0px;
+      margin-top : 5px;
+      margin-right : 20px;
+  }
+  
+  .text1{
+      margin-left : 10px;
+      margin-bottom : 0px;
+      margin-top : 5px;
+      margin-right : 20px;
+  }
+  
+  .text2{
+      margin-left : 10px;
+      margin-bottom : 0px;
+      margin-top : 0px;
+      margin-right : 20px;
+  }
+  
+  .login-button-block{
+     display : flex;
+     justify-content : center;
+     margin-top : 20px;
+  }
+  .login-button{
+    width : 200px;
+    height : 50px;
+    border-radius : 100px;
+    background-color : #0E8388;
+    color : #CBE4DE;
+  }
+  .login-butoon:hover{
+    background-color : #CBE4DE;
+    color : #0E8388;
+  }
+  .username,.password{
+    width: 250px;
+    height: 25px;
+    border-radius: 8px;
+    border-style: none;
+    background-color: lightgrey;
+  }
+  .username:focus,.password:focus{
+    text-shadow:5px 5px 10px0 #0E8388;
+  }
+  a{
+    text-decoration: none;
+    color: #0E8388;
+    background-color: #CBE4DE;
+  }
+  a:hover{
+    color: #CBE4DE;
+    background-color: #0E8388;
+  }

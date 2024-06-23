@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>About Us</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .container {
+      max-width: 800px;
+      max-height: 500px;
+      margin-bottom: 50px;
+      margin-left: 300px;
+      padding: 40px;
+
+    }
+    
+    .person {
+      display: flex;
+      margin-bottom: 40px;
+      border-radius: 8px;
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+    
+    .person-image {
+      flex: 0 0 150px;
+    }
+    
+    .person-image img {
+      width: 100%;
+      border-radius: 50%;
+    }
+    
+    .person-info {
+      flex: 1;
+      padding: 20px;
+      justify-content: center;
+      align-content: center;
+    }
+    
+    .person-name {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #333;
+    }
+    
+    .person-description {
+      font-size: 16px;
+      line-height: 1.5;
+      color: #555;
+      font-style: italic;
+      text-align: center;
+    }
+    .person:hover{
+        box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+        transform: translateZ(50);
+    }
+    .About{
+        text-align: center;
+        color: #333;
+        text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+    <h1 class="About">About Us</h1>
+  <div class="container">
+    <div class="person">
+      <div class="person-image">
+        <img src="photos/sathwik.jpg" alt="Person 1">
+      </div>
+      <div class="person-info">
+        <div class="person-name">G.Sai Sathwik</div>
+        <div class="person-description">
+          "Made the most of the framework of css,javascript,html and the designing of the website."
+        </div>
+      </div>
+    </div>
+    <div class="person">
+      <div class="person-image">
+        <img src="photos/WhatsApp Image 2023-06-04 at 15.14.38.jpg" alt="Person 2">
+      </div>
+      <div class="person-info">
+        <div class="person-name">Shekher Pali</div>
+        <div class="person-description">
+         "Made a significant role in making the framework of html of doubts-discussion page
+         and made helpful in making the information of the inventors."
+        </div>
+      </div>
+    </div>
+    <div class="person">
+      <div class="person-image">
+        <img src="photos/amit.jpg" alt="Person 3">
+      </div>
+      <div class="person-info">
+        <div class="person-name">Amit Dhillon</div>
+        <div class="person-description">
+         "Made a significant role in designing the footer of the webpage and fetched 
+         the info about the videos-section"
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

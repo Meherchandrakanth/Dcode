@@ -1,0 +1,44 @@
+.page_container_5 {
+    background-color: black;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .social_icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .social_icons li {
+    display: inline;
+  }
+  
+  .fab {
+    background-color: #020000;
+    color: rgb(253, 254, 254);
+    font-size: 50px;
+    margin-right: 50px;
+  }
+  
+  .grow:hover {
+    cursor: pointer;
+  }
+  
+a{
+    background-color: #020000;
+    color: antiquewhite;
+}
+.list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.list li{
+    display: inline;
+}
+.team{
+    margin:0;
+}

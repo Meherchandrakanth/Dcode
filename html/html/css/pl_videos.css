@@ -1,0 +1,97 @@
+html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    .swiper {
+      width: 50%;
+      height: 50%;
+      margin-left: 300px;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .topic-name,.topic{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .description{
+        margin-bottom: 50px;
+    }
+    .topic-name{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .youtube-video{
+        width: 500px;
+        height: 250px;
+    }
+    .practice-box{
+        width: 600px;
+        height: 100px;
+        margin-top: 100px;
+        text-align: center;
+        align-content: center;
+        border-radius: 25px;
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 80px;
+    }
+    .practice-box,.practice-box-description,a{
+        background-color: #0E8388;
+    }
+    .practice-box-description{
+        margin-top: 100px;
+        color: cornsilk;
+        font-size: large;
+        font-weight: 600;
+    }
+    a{
+        font-size: large;
+        font-weight: 400;
+        text-decoration: none;
+        color: ivory;
+    }
+    .mid-head{
+        margin-top: 50px;
+        font-size: 50px;
+        font-weight: 900;
+        margin-left: 350px;
+    }
+    .main-part{
+        color:#E7B10A;
+        text-shadow: 3px 3px 15px rgb(0, 0, 0);
+    }
+    a:hover{
+        background-color: ivory;
+        color: #0E8388;
+        border-radius: 10px;
+    }
+    hr{
+        height: 2px;
+        color: #000;
+    }
+    .page_container_5{
+        margin-top: 80px;
+    }

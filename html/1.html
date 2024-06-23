@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Creative List</title>
+  <style>
+    .creative-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .creative-list li {
+      position: relative;
+      padding-left: 20px;
+      margin-bottom: 10px;
+      font-size: 18px;
+      line-height: 1.4;
+    }
+
+    .creative-list li::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 6px;
+      width: 8px;
+      height: 8px;
+      background-color: #ff5252;
+      border-radius: 50%;
+    }
+
+    .creative-list li:nth-child(even)::before {
+      background-color: #4CAF50;
+    }
+  </style>
+</head>
+<body>
+  <ul class="creative-list">
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+    <li>Item 4</li>
+  </ul>
+</body>
+</html>

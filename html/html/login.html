@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login-form</title>
+    <link rel="stylesheet" href="css/login.css">
+    <script defer src="javascript/login.js"></script>
+    <link rel="icon" href="photos/favicon (3).ico?v=2">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;500;700;800;900&family=Wix+Madefor+Display:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="login">
+        <div class="profile-block">
+          <img class="profile-pic" src="https://rcmi.fiu.edu/wp-content/uploads/sites/30/2018/02/no_user.png">
+          <div class="login-title"><h1>USER-LOGIN</h1></div>
+        </div>
+        <div class="login_block" >
+            <form id="login-form">
+        <div class="email-block">
+           <label for="username">Username:</label>
+           <br>
+        <input type="text" id="username" class="username" placeholder="username">
+        </div>
+        <br>
+        <div class="password-block">
+          <label for="password">Password:  </label>
+          <br>
+        <input class="password" type="password" id="password" minlength="8" required>
+        </div>
+        <br>
+        <div class="text-block">
+           <p class="text1">Need to create a new account!<p>
+        <p class="text2">ASAP! No worries <a href="signin.html">Sign in?</a><p>
+        </div>
+        <div class="login-button-block"><input type="button" value="Login" class="login-button" id="login-button" onclick="login()"></div>
+        </div>
+    </form>
+      </div>
+</body>
+</html>
